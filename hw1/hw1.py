@@ -61,3 +61,4 @@ from sklearn.tree import export_graphviz
 
 export_graphviz(tree,out_file='tree.dot',filled=True,leaves_parallel=True,rounded=True,feature_names=data_train.drop(columns=['Book of Death']).columns,max_depth=5)
 
+##this is version 2
